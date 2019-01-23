@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.sass']
 })
 export class HomeComponent implements OnInit {
-
+  title = 'Hello, I am Oleksandr Vlasiuk.<br> I am a front-end web developer.';
   constructor() { }
 
   ngOnInit() {
